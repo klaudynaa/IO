@@ -1,0 +1,35 @@
+IN¯YNIERIA OPROGRAMOWANIA 	
+SYSTEM WSPOMAGAJ¥CY WYPO¯YCZALNIE FILMOW¥
+
+1. Wymagania funkcjonalne
+
+Klient:
+ - logowanie siê do systemu poprzez login i has³o (zerowy poziom uprawnieñ),
+ - wyszukiwanie odpowiednich pozycji w bazie danych (filmów),
+ - sk³adanie zamówienia na istniej¹c¹ pozycjê w bazie danych (rewers)
+ - rezerwacja wybranej pozycji,
+ - przed³u¿enie wypo¿yczenia,
+ - przegl¹d informacji o swoich zamówieniach,
+ 
+Pracownik:
+ - logowanie siê do systemu poprzez login i has³o (pierwszy poziom uprawnieñ),
+ - dodawanie nowych pozycji (filmów) do bazy danych,
+ - edycja istniej¹cych pozycji (filmów),
+ - usuwanie pozycji (filmów) z bazy danych,
+ - realizacja zamówieñ klienta,
+- ustalanie indywidualnego limitu wypo¿yczanych ksi¹¿ek dla czytelników,
+ - monitorowanie i modyfikowanie terminów zwrotu pozycji ksi¹¿kowych,
+
+Administrator
+ - logowanie siê do systemu poprzez login i has³o (najwy¿szy poziom uprawnieñ),
+ - mo¿liwoœæ modyfikowania, blokowania lub usuwania konta czytelnika,
+ - dodawanie kont pracowników (z pierwszym poziomem uprawnieñ),
+ - dodawanie nowych pozycji (filmów) do bazy danych,
+ - edycja istniej¹cych pozycji (filmów),
+ - usuwanie pozycji (filmów) z bazy danych,
+ - realizacja zamówieñ klienta,
+ - monitorowanie i modyfikowanie terminów zwrotu pozycji filmowych,
+ - ustalanie indywidualnego limitu wypo¿yczanych filmów dla czytelników,
+ - sprowadzanie nowych pozycji filmowych 
+ 
+
